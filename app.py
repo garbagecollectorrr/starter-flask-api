@@ -7,6 +7,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
         user_email = request.args.get('user_email')
+        if not user_email:
+                user_email='dummy@dummy.ie'
         print('USER_EMAIL==', user_email)
         s =  """<!DOCTYPE html>
             <html>
