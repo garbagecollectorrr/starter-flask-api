@@ -30,7 +30,7 @@ def hello_world():
                                 // baseCurrencyAmount: '100',
                                 // defaultCurrencyCode: 'eth',
                                 walletAddress: '0x5AdF7A7A70f7CdD86A9e133925A0b323840EE0B4',
-                                externalCustomerId: test_external_cust_id
+                                externalCustomerId: '""" + user_email + """'
                             },
                             debug: true
                         });
